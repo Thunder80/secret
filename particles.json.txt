@@ -1,0 +1,50 @@
+{
+  "particles": {
+    "number": {
+      "value": 250
+    },
+    "color":{
+      "value":"random"
+    },
+    "shape":{
+        "type":"star"
+    },
+    "opacity":{
+        "value": 1,
+        "anim":{
+            "enable": true,
+            "opacity_min":0.1,
+            "speed":1.8
+        }
+    },
+    "size":{
+        "value": 10
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move":{
+        "enable":true,
+        "speed":5
+    },
+    "interactivity":{
+        "detect_on":"canvas",
+        "events":{
+            
+            "onclick":{
+                "enable":false,
+                "mode":"bubble"
+            }
+        }
+    },
+    "modes":{
+        "bubble":{
+            "distance":100,
+            "size":20,
+            "duration":2,
+            "speed":2
+        }
+    }
+    
+  }
+}
