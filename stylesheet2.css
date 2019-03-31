@@ -1,0 +1,50 @@
+.{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 1500px;
+    height: auto;
+    background: #5D9BAA;
+    margin: auto;
+}
+
+#heading{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    color: aliceblue
+}
+
+i{
+    font-size: 50px;
+}
+img{
+    position: absolute;
+    display: block;
+    margin-left: 637.5;
+}
+
+#particles-js{
+    position: relative;
+    height: 300px;
+    z-index: 1;
+}
+
+#talk{
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: red;
+}
+audio{
+    display: block;
+    margin: auto;
+}
+
+#footer{
+    font-size: 20px;
+    text-align: right;
+}
